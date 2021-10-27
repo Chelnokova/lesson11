@@ -1,0 +1,304 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=cyrillic-ext);
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	/* overflow: hidden; */
+}
+
+.main {
+	font-family: Roboto, sans-serif;
+	padding: 180px 0 0;
+}
+
+.header {
+	background-color: #5d62b5;
+	font-size: 50px;
+	padding: 20px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.footer {
+	background-color: #5d62b5;
+	font-size: 50px;
+	padding: 20px;
+}
+
+._container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+.title {
+	max-width: 411px;
+	display: inline-block;
+}
+
+.title_width-583 {
+	max-width: 583px;
+}
+
+.title_width-583::after {
+	content: "";
+	width: 201px;
+	height: 317px;
+	position: absolute;
+	top: -109px;
+	left: 895px;
+	background: url(../img/bg_png/circles.png) 0 0 / auto no-repeat;
+}
+
+.title__subtitle {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-bottom: 33px;
+}
+
+.title__subtitle::before {
+	content: "";
+	display: inline-block;
+	margin: 0 16px 0 0;
+	width: 17px;
+	height: 20px;
+	background: url(../img/bg_svg/overline_white.svg) 0 top;
+}
+
+.title__text {
+	max-width: 583px;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff;
+}
+
+.our-impact {
+	background: #29c3be url(../img/bg_png/blob_green.png) 85% top / 50% auto no-repeat;
+	padding: 112px 0 212px 0;
+}
+
+.our-impact__container {
+	position: relative;
+}
+
+.our-impact__img {
+	display: inline-block;
+	position: absolute;
+	left: 524px;
+	top: -192px;
+}
+
+.our-impact__pic {
+	border-radius: 40px;
+}
+
+.our-impact__list {
+	padding: 79px 0 0 0;
+}
+
+.our-impact__item {
+	display: inline-block;
+	width: 237px;
+}
+
+.our-impact__item :not(:last-child) {
+	margin-right: 24px;
+}
+
+.our-impact__image_pic-duck::before {
+	content: "";
+	display: inline-block;
+	width: 76px;
+	height: 76px;
+	background: url(../img/content_svg/dog_duckling.svg) left bottom / 100% no-repeat;
+	/* margin-bottom: -10px; */
+}
+
+.our-impact__image_pic-house::before {
+	content: "";
+	display: inline-block;
+	width: 76px;
+	height: 76px;
+	background: url(../img/content_svg/dog_house.svg) left bottom / 100% no-repeat;
+	/* margin-bottom: -10px; */
+}
+
+.our-impact__image_pic-leash::before {
+	content: "";
+	display: inline-block;
+	width: 76px;
+	height: 76px;
+	background: url(../img/content_svg/dog_leash.svg) left bottom / 100% no-repeat;
+	margin-bottom: -10px;
+}
+
+.our-impact__image_pic-bowl::before {
+	content: "";
+	display: inline-block;
+	width: 76px;
+	height: 76px;
+	background: url(../img/content_svg/dog_food_bowl.svg) left bottom / 100% no-repeat;
+	margin-bottom: -10px;
+}
+
+.our-impact__image {
+	display: inline-block;
+	width: 1px;
+}
+
+.our-impact__content {
+	display: inline-block;
+	margin-left: 87px;
+}
+
+.our-impact__numeric {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff;
+	margin-bottom: 3px;
+}
+
+.our-impact__descr {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #5d62b5;
+}
+
+.who-we-are {
+	position: relative;
+	z-index: 1;
+	top: -80px;
+}
+
+.who-we-are__container {
+	background: #5d62b5 url(../img/bg_png/blob_vio.png) -15px 258px / auto no-repeat;
+	border-radius: 40px;
+	padding: 100px 87px 354px;
+	position: relative;
+}
+
+.who-we-are__text {
+	padding: 36px 0 54px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #f5f5f5;
+}
+
+.who-we-are__image {
+	border-radius: 40px;
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+	position: absolute;
+}
+
+.practice-relative,
+.practice-absolute,
+.practice-sticky {
+	padding: 20px;
+}
+.title-practice {
+	text-align: center;
+	font-size: 30px;
+}
+.practice-relative__block,
+.practice-absolute__block {
+	display: inline-block;
+	padding: 10px;
+}
+.practice-relative__block_violet {
+	background-color: violet;
+}
+.practice-relative__block_blue {
+	background-color: blue;
+	position: relative;
+	z-index: 1;
+	top: 10px;
+	left: 20px;
+}
+.practice-relative__block_red {
+	background-color: red;
+}
+
+.practice-absolute__conteiner {
+	position: relative;
+}
+
+.practice-absolute__block_violet {
+	background-color: violet;
+	position: relative;
+	z-index: 1;
+}
+.practice-absolute__block_blue {
+	background-color: blue;
+}
+.practice-absolute__block_red {
+	background-color: red;
+	position: absolute;
+	z-index: 0;
+	top: 10px;
+	left: 0;
+}
+
+.practice-sticky__block_violet {
+	background-color: violet;
+}
+.practice-sticky__block_blue {
+	background-color: blue;
+	position: sticky;
+	z-index: 101;
+	top: 0px;
+}
+.practice-sticky__block_red {
+	background-color: red;
+}
